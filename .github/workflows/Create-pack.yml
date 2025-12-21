@@ -12,10 +12,5 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      - run: |
-          ls -la
-          echo $GITHUB_REF_NAME
-          echo ${{ github.ref_name }}
-
       - name: Zip modpack
-        run: zip -r "create-19th_$(${{ github.push.tag.name }}).mrpack" modrinth.index.json overrides
+        run: zip -r "create-19th_${{ github.ref_name }}.mrpack" modrinth.index.json overrides
