@@ -10,15 +10,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - run: echo "FILE_NAME=create-19th_${{ github.ref_name }}.mrpack" >> "$GITHUB_ENV"
-
       - uses: actions/checkout@v5
 
       - name: Zip modpack
-        run: zip -r $FILE_NAME modrinth.index.json overrides
+        run: zip -r "create-19th_${{ github.ref_name }}.mrpack" modrinth.index.json overrides
 
       - uses: actions/upload-artifact@v6
         with:
-          name: $FILE_NAME
-          path: $FILE_NAME
+          name: create-19th_${{ github.ref_name }}.mrpack
+          path: create-19th_${{ github.ref_name }}.mrpack
           if-no-files-found: 'error'
