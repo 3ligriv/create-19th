@@ -12,6 +12,11 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
+      - name: Copy default config
+        run: |
+          cp -r overrides/configureddefaults/config overrides/config
+          cp -r overrides/configureddefaults/config overrides/defaultconfigs
+
       - name: Zip modpack
         run: zip -r "create-19th_${{ github.ref_name }}.mrpack" modrinth.index.json overrides
 
