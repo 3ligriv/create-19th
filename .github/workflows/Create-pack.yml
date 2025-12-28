@@ -14,9 +14,11 @@ jobs:
 
       - name: Building balancing mod
         run: |
-          zip -r "create-19th-balancing_${{ github.ref_name }}.jar" create-19th_balancing_mod
+          cd create-19th_balancing_mod
+          zip -r "create-19th-balancing_${{ github.ref_name }}.jar" .
+          cd ..
           mkdir -p overrides/mods
-          mv create-19th-balancing_${{ github.ref_name }}.jar overrides/mods/
+          mv create-19th_balancing_mod/create-19th-balancing_${{ github.ref_name }}.jar overrides/mods/
 
       - name: Copy default config
         run: |
