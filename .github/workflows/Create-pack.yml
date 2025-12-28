@@ -25,3 +25,11 @@ jobs:
           name: create-19th_${{ github.ref_name }}.mrpack
           path: create-19th_${{ github.ref_name }}.mrpack
           if-no-files-found: 'error'
+
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        with:
+          draft: true
+          body: "to fill in"
+          files: create-19th_${{ github.ref_name }}.mrpack
+          fail_on_unmatched_files: true
