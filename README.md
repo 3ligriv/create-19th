@@ -1,5 +1,5 @@
 # Create 19th
-## A Minecraft modpack Evolving around Create in the end of the 19th century
+## A Minecraft modpack evolving around Create in the end of the 19th century
 
 ### Description
 A modpack for playing on a server with an aesthetic and RP focus.
