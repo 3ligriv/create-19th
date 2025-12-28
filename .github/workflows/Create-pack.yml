@@ -12,6 +12,12 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
+      - name: Building balancing mod
+        run: |
+          zip -r "create-19th-balancing_${{ github.ref_name }}.jar" create-19th_balancing_mod
+          mkdir -p overrides/mods
+          mv create-19th-balancing_${{ github.ref_name }}.jar overrides/mods/
+
       - name: Copy default config
         run: |
           cp -r overrides/configureddefaults/config overrides/config

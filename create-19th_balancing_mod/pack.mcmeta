@@ -1,0 +1,24 @@
+{
+    "pack": {
+        "id": "create19th",
+        "supported_formats": [
+            48,
+            61
+        ],
+        "pack_format": 48,
+        "description": [
+            {
+                "text": "Create 19th",
+                "color": "#1eb2bc"
+            },
+            {
+                "text": "balancing mod",
+                "color": "gray"
+            },
+            {
+                "text": "3ligriv",
+                "color": "#0c38b1ff"
+            }
+        ]
+    }
+}

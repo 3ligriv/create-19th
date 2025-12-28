@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Specification-Title: create-19th
+Specification-Vendor: 3ligriv
+Specification-Version: 1.0.3a
+Implementation-Title: create-19th
+Implementation-Version: 1.0.3a
+Implementation-Vendor: 3ligriv
+Implementation-Timestamp: 2025-12-28T18:02:38+0100

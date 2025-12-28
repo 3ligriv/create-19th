@@ -1,0 +1,26 @@
+modLoader="lowcodefml"
+loaderVersion="[1,)"
+license="GPL-3.0"
+issueTrackerURL="https://github.com/3ligriv/create-19th/issues"
+
+[[mods]]
+    modId="create19th"
+    version="1.0.3a"
+    displayName="Create 19th"
+    displayURL="https://github.com/3ligriv/create-19th"
+    authors="3ligriv"
+    credits="3ligriv"
+    description="A mod for balancing the Create 19th modpack"
+
+[[dependencies.create19th]]
+    modId="neoforge"
+    mandatory=false
+    versionRange="[21,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.create19th]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.21,1.22)"
+    ordering="NONE"
+    side="BOTH"
