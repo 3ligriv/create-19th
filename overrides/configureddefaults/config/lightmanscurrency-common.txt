@@ -254,92 +254,15 @@ debugLevel=0
 		#Chest Spawn Lists
 		[loot.chests.lists]
 			#List of Loot Tables that will also spawn loot from the "lightmanscurrency:loot_addons/chest/tier1" loot table.
-			T1=[
-				"minecraft:chests/underwater_ruin_small",
-				"minecraft:chests/underwater_ruin_big",
-				"terralith:mage/treasure",
-				"terralith:village/treasure/emerald",
-				"minecraft:chests/igloo_chest",
-				"minecraft:chests/village/village_butcher",
-				"minecraft:chests/village/village_cartographer",
-				"minecraft:chests/village/village_desert_house",
-				"minecraft:chests/village/village_fisher",
-				"minecraft:chests/village/village_fletcher",
-				"minecraft:chests/village/village_mason",
-				"minecraft:chests/village/village_plains_house",
-				"minecraft:chests/village/village_savanna_house",
-				"minecraft:chests/village/village_shepherd",
-				"minecraft:chests/village/village_snowy_house",
-				"minecraft:chests/village/village_taiga_house",
-				"minecraft:chests/village/village_tannery"
-			]
+			T1=["minecraft:chests/underwater_ruin_small","minecraft:chests/underwater_ruin_big","terralith:mage/treasure","terralith:village/treasure/emerald","minecraft:chests/igloo_chest","minecraft:chests/village/village_butcher","minecraft:chests/village/village_cartographer","minecraft:chests/village/village_desert_house","minecraft:chests/village/village_fisher","minecraft:chests/village/village_fletcher","minecraft:chests/village/village_mason","minecraft:chests/village/village_plains_house","minecraft:chests/village/village_savanna_house","minecraft:chests/village/village_shepherd","minecraft:chests/village/village_snowy_house","minecraft:chests/village/village_taiga_house","minecraft:chests/village/village_tannery"]
 			#List of Loot Tables that will also spawn loot from the "lightmanscurrency:loot_addons/chest/tier2" loot table.
-			T2=[
-				"betterarcheology:archeology/chest_buried_ruins_sand",
-				"betterarcheology:archeology/chest_buried_ruins_sand",
-				"betterarcheology:archeology/chest_catacombs_combat",
-				"betterarcheology:archeology/chest_catacombs_generic",
-				"betterarcheology:archeology/chest_catacombs_golden",
-				"betterarcheology:archeology/chest_catacombs_library",
-				"betterarcheology:archeology/chest_catacombs_potion",
-				"betterarcheology:archeology/chest_jungle_temple_equip",
-				"betterarcheology:archeology/chest_jungle_temple_food",
-				"betterarcheology:archeology/chest_jungle_temple_generic",
-				"betterarcheology:archeology/chest_jungle_temple_treasure",
-				"betterarcheology:archeology/chest_light_temple_book",
-				"betterarcheology:archeology/chest_light_temple_generic",
-				"betterarcheology:archeology/chest_light_temple_pillager",
-				"betterarcheology:archeology/chest_light_temple_treasure",
-				"betterarcheology:archeology/chest_loot_prototype",
-				"betterarcheology:archeology/chest_mesa_ruins",
-				"betterarcheology:archeology/chest_mott",
-				"betterarcheology:archeology/chest_radiance_totem",
-				"betterarcheology:archeology/chest_sculk_sword",
-				"betterarcheology:archeology/chest_tumulus",
-				"betterarcheology:archeology/chest_underwater",
-				"terralith:village/fortified/treasure",
-				"terralith:village/treasure/diamond",
-				"minecraft:chests/pillager_outpost",
-				"minecraft:chests/trial_chambers/reward_common",
-				"minecraft:chests/village/village_armorer",
-				"minecraft:chests/village/village_temple",
-				"minecraft:chests/village/village_toolsmith",
-				"minecraft:chests/village/village_weaponsmith"
-			]
+			T2=["betterarcheology:archeology/chest_buried_ruins_sand","betterarcheology:archeology/chest_buried_ruins_sand","betterarcheology:archeology/chest_catacombs_combat","betterarcheology:archeology/chest_catacombs_generic","betterarcheology:archeology/chest_catacombs_golden","betterarcheology:archeology/chest_catacombs_library","betterarcheology:archeology/chest_catacombs_potion","betterarcheology:archeology/chest_jungle_temple_equip","betterarcheology:archeology/chest_jungle_temple_food","betterarcheology:archeology/chest_jungle_temple_generic","betterarcheology:archeology/chest_jungle_temple_treasure","betterarcheology:archeology/chest_light_temple_book","betterarcheology:archeology/chest_light_temple_generic","betterarcheology:archeology/chest_light_temple_pillager","betterarcheology:archeology/chest_light_temple_treasure","betterarcheology:archeology/chest_loot_prototype","betterarcheology:archeology/chest_mesa_ruins","betterarcheology:archeology/chest_mott","betterarcheology:archeology/chest_radiance_totem","betterarcheology:archeology/chest_sculk_sword","betterarcheology:archeology/chest_tumulus","betterarcheology:archeology/chest_underwater","terralith:village/fortified/treasure","terralith:village/treasure/diamond","minecraft:chests/pillager_outpost","minecraft:chests/trial_chambers/reward_common","minecraft:chests/village/village_armorer","minecraft:chests/village/village_temple","minecraft:chests/village/village_toolsmith","minecraft:chests/village/village_weaponsmith"]
 			#List of Loot Tables that will also spawn loot from the "lightmanscurrency:loot_addons/chest/tier3" loot table.
-			T3=[
-				"minecraft:chests/buried_treasure",
-				"minecraft:chests/jungle_temple",
-				"minecraft:chests/nether_bridge",
-				"minecraft:chests/simple_dungeon",
-				"minecraft:chests/ruined_portal",
-				"artifacts:chests/campsite_chest",
-				"terralith:underground/chest",
-				"terralith:spire/rare",
-				"minecraft:chests/shipwreck_treasure",
-				"minecraft:chests/trial_chambers/reward_rare",
-				"minecraft:chests/trial_chambers/reward_ominous_common",
-				"minecraft:chests/woodland_mansion"
-			]
+			T3=["minecraft:chests/buried_treasure","minecraft:chests/jungle_temple","minecraft:chests/nether_bridge","minecraft:chests/simple_dungeon","minecraft:chests/ruined_portal","artifacts:chests/campsite_chest","terralith:underground/chest","terralith:spire/rare","minecraft:chests/shipwreck_treasure","minecraft:chests/trial_chambers/reward_rare","minecraft:chests/trial_chambers/reward_ominous_common","minecraft:chests/woodland_mansion"]
 			#List of Loot Tables that will also spawn loot from the "lightmanscurrency:loot_addons/chest/tier4" loot table.
-			T4=[
-				"minecraft:chests/stronghold_crossing",
-				"minecraft:chests/stronghold_corridor",
-				"minecraft:chests/stronghold_library",
-				"minecraft:chests/ancient_city",
-				"terralith:spire/treasure",
-				"minecraft:chests/desert_pyramid",
-				"minecraft:chests/trial_chambers/reward_ominous"
-			]
+			T4=["minecraft:chests/stronghold_crossing","minecraft:chests/stronghold_corridor","minecraft:chests/stronghold_library","minecraft:chests/ancient_city","terralith:spire/treasure","minecraft:chests/desert_pyramid","minecraft:chests/trial_chambers/reward_ominous"]
 			#List of Loot Tables that will also spawn loot from the "lightmanscurrency:loot_addons/chest/tier5" loot table.
-			T5=[
-				"minecraft:chests/bastion_hoglin_stable",
-				"minecraft:chests/bastion_bridge",
-				"minecraft:chests/bastion_other",
-				"minecraft:chests/bastion_treasure",
-				"minecraft:chests/end_city_treasure",
-				"minecraft:chests/trial_chambers/reward_ominous_rare"
-			]
+			T5=["minecraft:chests/bastion_hoglin_stable","minecraft:chests/bastion_bridge","minecraft:chests/bastion_other","minecraft:chests/bastion_treasure","minecraft:chests/end_city_treasure","minecraft:chests/trial_chambers/reward_ominous_rare"]
 			#List of Loot Tables that will also spawn loot from the "lightmanscurrency:loot_addons/chest/tier6" loot table.
 			T6=[]
 #Structure Settings
